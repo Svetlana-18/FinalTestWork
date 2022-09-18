@@ -18,7 +18,7 @@ void NewArrayCreating(string[] arr1, string[] arr2)
     {
         if (arr1[i].Length <= 3)
         {
-            arr2[count] = array1[i];
+            arr2[count] = arr1[i];
             count++;
         }
     }
